@@ -1,0 +1,12 @@
+name: tutorial
+
+entry_points:
+  main:
+    parameters:
+      alpha_from: float
+      alpha_to: float
+      alpha_n: integer
+      l1_ratio_from: float
+      l1_ratio_to: float
+      l1_ratio_n: integer
+    command: "python train.py {alpha_from} {alpha_to} {alpha_n} {l1_ratio_from} {l1_ratio_to} {l1_ratio_n}"
